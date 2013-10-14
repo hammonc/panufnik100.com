@@ -14,7 +14,7 @@ p {
 
 a {
 	text-decoration: none;
-	color: #d6a354;
+	color: #bf0123;
 }
 
 a img {
@@ -32,7 +32,7 @@ a:hover {
 
 #banner-name a {
 	font-size: 42px;
-	color: #541607;
+	color: #000000;
 }
 
 #banner-subtitle a {
@@ -74,7 +74,7 @@ a:hover {
 .concert-date {
 	float: left;
 	width: 120px;
-	color: #cb692a;
+	color: #bf0123;
 }
 
 .concert-info {
