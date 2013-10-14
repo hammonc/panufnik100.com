@@ -1,0 +1,27 @@
+---
+layout: default
+---
+		<div id="container">
+			<div id="banner">
+				<div id="banner-title">
+					<span id="banner-name"><a href="index.html">PANUFNIK 100:</a></span>
+					<span id="banner-subtitle"><a href="index.html">a family celebration</a></span>
+				</div>
+				<img src="assets/images/{{ page.banner_image }}" />
+			</div>
+
+			<div id="navigation">
+				<ul>
+					<li{% if page.title == "Home" %} class="selected"{% endif %}><a href="home.html">HOME</a></li>
+					<li{% if page.title == "Programme" %} class="selected"{% endif %}><a href="programme.html">PROGRAMME</a></li>
+					<li{% if page.title == "Artists" %} class="selected"{% endif %}><a href="artists.html">ARTISTS</a></li>
+					<li{% if page.title == "Media" %} class="selected"{% endif %}><a href="media.html">MEDIA</a></li>
+					<li{% if page.title == "Get Involved" %} class="selected"{% endif %}><a href="getinvolved.html">GET INVOLVED</a></li>
+					<li{% if page.title == "Tickets" %} class="selected"{% endif %}><a href="tickets.html">TICKETS</a></li>
+				</ul>
+			</div>
+			<div id="content">
+				{{ content }}
+			</div>
+		</div>
+
