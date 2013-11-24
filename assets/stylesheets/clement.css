@@ -25,6 +25,22 @@ a:hover {
 	text-decoration: underline;
 }
 
+#index-logo-1 {
+	position: absolute;
+       	top: 10px;
+       	left: 10px;
+	width: 140px;
+	height: 140px;
+}
+
+#index-logo-2 {
+	position: absolute;
+       	top: 10px;
+       	left: 160px;
+	width: 140px;
+	height: 140px;
+}
+
 #container {
 	width: 720px;
 	margin: 0 auto;
