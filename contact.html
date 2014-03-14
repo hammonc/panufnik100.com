@@ -6,9 +6,9 @@ banner_image: getinvolved.jpg
 
 <div id="biographie">
 
-<p>Register here to receive updates on the festival, information on special offers, and to be notified when tickets go on sale.</p>
+<p id="get-involved">Register here to receive updates on the festival, information on special offers, and to be notified when tickets go on sale.</p>
 
-<form action="http://www.clarehammond.com/cgi-bin/subscriptions" method="post" id="mailing-list">
+<form action="http://localhost:8000/subscriptions/" method="post" id="mailing-list">
        <table>
                <tr>
                        <td>Full name</td>
@@ -19,7 +19,7 @@ banner_image: getinvolved.jpg
                        <td><input type="text" id="email" name="email" /></td>
                </tr>
        </table>
-       <input type="hidden" id="message" name="message" value="" />
+       <input type="hidden" name="project" value="1">
        <input type="submit" name="register" value="Register" id="register" />
 </form>
 
