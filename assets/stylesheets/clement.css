@@ -72,8 +72,8 @@ a:hover {
 #navigation li {
 	display: inline;
 	list-style-type: none;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 20px;
 }
 
