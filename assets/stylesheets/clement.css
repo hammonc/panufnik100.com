@@ -135,7 +135,11 @@ a:hover {
 }
 
 #thumbnails td {
-	padding: 20px;
+	padding: 12px;
+}
+
+#thumbnails img {
+	width: 150px;
 }
 
 #home h2 {
